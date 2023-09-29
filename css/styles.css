@@ -130,7 +130,7 @@ font-family: "Raleway", sans-serif;
 }
 
 
-.contacts-item.{
+.contacts-item{
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
@@ -153,6 +153,7 @@ justify-content: center;
 align-items: center;
 flex-shrink: 0;
 margin-left: 347px;
+
 }
 
 
@@ -161,11 +162,10 @@ margin-left: 347px;
 .title{
 background-color: #2e2f42;
 padding: 188px 0;
+background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/people-office.jpg);
 }
 .title-img{
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7),
-     rgba(46, 47, 66, 0.7)),
-      url(../images/people.office.jpg);
+   
 max-width: 1440px;
 background-repeat: no-repeat;
 background-position: center;
@@ -339,6 +339,7 @@ background-size: cover;
     display: flex;
     margin-top: 8px;
     margin-bottom: 32px;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .link-icon:hover,
 .link-icon:focus{
